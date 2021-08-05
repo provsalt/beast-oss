@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3da214d9-85f7-4d4f-82df-04e3f9b0eebe" name="hetzner xmrvsbeast">
+        <fileTransfer rootFolder="/home/provsalt/" accessType="SFTP" host="beast.provsalt.xyz" port="22" sshConfigId="a93b229e-b9c0-4c8b-b13a-5534825de53c" sshConfig="provsalt@beast.provsalt.xyz:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

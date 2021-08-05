@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="beast.provsalt.xyz" id="a93b229e-b9c0-4c8b-b13a-5534825de53c" port="22" nameFormat="DESCRIPTIVE" username="provsalt" />
+    </configs>
+  </component>
+</project>
