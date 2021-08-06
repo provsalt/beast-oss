@@ -87,7 +87,7 @@ export default function Navigation() {
                                     <span className="sr-only">Workflow</span>
                                     <StaticImage
                                         className="h-8 w-auto sm:h-10"
-                                        src="../images/icon.png"
+                                        src="../../images/icon.png"
                                         alt=""
                                         height="32"
                                         width="32"
@@ -267,7 +267,7 @@ export default function Navigation() {
                                         <div>
                                             <StaticImage
                                                 className="h-8 w-auto"
-                                                src="../images/icon.png"
+                                                src="../../images/icon.png"
                                                 height="32"
                                                 width="32"
                                                 alt="Workflow"
