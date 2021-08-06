@@ -101,6 +101,7 @@ export default function Navigation() {
                                     <MenuIcon className="h-6 w-6" aria-hidden="true"/>
                                 </Popover.Button>
                             </div>
+
                             <Popover.Group as="nav" className="hidden md:flex space-x-10">
                                 <Popover className="relative">
                                     {({open}) => (
