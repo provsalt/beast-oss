@@ -6,7 +6,6 @@ export default function Settings() {
         {value: "ARS", name: "Argentine Peso"},
         {value: "AUD", name: "Australian Dollar"},
         {value: "BDT", name: "Bangladeshi Taka"},
-        {value: "BEF", name: "Belgian Franc"},
         {value: "BTC", name: "Bitcoin"},
         {value: "BRL", name: "Brazilian Real"},
         {value: "GBP", name: "British Pound Sterling"},

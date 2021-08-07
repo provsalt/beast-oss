@@ -1,5 +1,6 @@
-import * as React from "react"
-import {Link} from "gatsby"
+import * as React from "react";
+import {Link} from "gatsby";
+import {Helmet} from 'react-helmet'
 
 const headingStyles = {
   marginTop: 0,
@@ -22,7 +23,11 @@ const codeStyles = {
 const NotFoundPage = () => {
   return (
     <main>
-      <title>404 Not found</title>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <meta name="description" content="We could not find anything in here."/>
+        <title>404 Not found</title>
+      </Helmet>
       <h1 style={headingStyles}>Page not found</h1>
       <p style={paragraphStyles}>
         Sorry{" "}

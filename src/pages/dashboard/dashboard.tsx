@@ -12,6 +12,7 @@ import Cookies from "js-cookie";
 import {abbreviateNumber} from "../../modules/utils";
 import Skeleton from "../../modules/dashboard/skeleton";
 import Metrics from "../../modules/dashboard/metrics";
+import {Helmet} from "react-helmet";
 
 
 const fetcher = (url: string) => axios.get(url).then(res => res.data)
@@ -53,6 +54,9 @@ const Dashboard = () => {
     const date = new Date
     return (
         <div className="bg-dashboard-blue-200 flex z-0">
+            <Helmet>
+                <title>XMRvsBeast | Dashboard</title>
+            </Helmet>
             <div className="container mx-auto">
                 <h1 className="text-3xl text-dracula-foreground">Good {date.getHours() > 12 ? "Evening" : "Morning"}</h1>
                 <span className="text-dracula-comment">Here's what's happening today in the pool</span><span

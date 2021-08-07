@@ -3,11 +3,19 @@ import { StaticImage } from "gatsby-plugin-image"
 import {Link} from "gatsby";
 import {FeatureCard} from "../modules/feature/feature";
 import Navigation from "../modules/navigation/navigation";
-import Stats from "../modules/stats/stats";
+import {Helmet} from "react-helmet";
 
 const Home = () => {
     return (
         <>
+            <Helmet>
+                <title>XMRvsBeast Monero Mining Pool | Home</title>
+                <meta name="description" content="XMRvsBeast is a monero mining pool where we have 0% fees for mining XMR/Monero not even transaction fees, we also have hashrate boosts where you can stand to win for free."/>
+                <meta property="og:title" content="XMRvsBeast" />
+                <meta property="og:description" content="XMRvsBeast is a monero mining pool where we have 0% fees for mining XMR/Monero not even transaction fees, we also have hashrate boosts where you can stand to win for free." />
+                <meta name="theme-color" content="#6d1fde"/>
+                <meta property="og:type" content="website" />
+            </Helmet>
             <div className="sticky z-50">
                 <Navigation/>
             </div>
