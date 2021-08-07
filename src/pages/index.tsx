@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import {Link} from "gatsby";
 import {FeatureCard} from "../modules/feature/feature";
 import Navigation from "../modules/navigation/navigation";
+import Stats from "../modules/stats/stats";
 
 const Home = () => {
     return (
@@ -20,13 +21,16 @@ const Home = () => {
                             Move your rigs to our pool today! More rewards, more decentralization!
                         </p>
                     </div>
-
-                    <Link to="/login" className="mx-auto lg:mx-0 hover:underline text-xl text-gray-800 text-center bg-dracula-green font-extrabold rounded my-4 md:my-6 py-4 px-8 shadow-lg w-48">
-                        Sign in
-                    </Link>
+                    <div className="my-3 indicator">
+                        <div className="indicator-item indicator-bottom badge badge-primary">{require('../../package.json').version}</div>
+                        <Link to="/login" className="mx-auto lg:mx-0 hover:underline text-xl text-gray-800 text-center bg-dracula-green font-extrabold rounded py-4 px-8 shadow-lg w-48">
+                            Sign in
+                        </Link>
+                    </div>
                     <div className="block w-full mx-auto relative">
                         <StaticImage src="../images/dashboard-screenshot.png" alt="Dashboard screenshot"/>
                     </div>
+
                     <div className="flex justify-center my-4">
                         <span className="font-black text-dracula-foreground text-center text-3xl ">Features</span>
                     </div>
