@@ -1,5 +1,6 @@
 import {Listbox, Transition} from "@headlessui/react";
-import React, {Fragment, useState} from "react";
+import {Fragment, useState} from "react";
+import * as React from "react";
 
 export default function Settings() {
     const currencies = [
