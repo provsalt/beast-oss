@@ -77,7 +77,7 @@ export default function Navigation() {
         setWallet(wallet ? wallet : "")
     }, []);
     return (
-        <Popover className="relative bg-dracula-background">
+        <Popover className="relative bg-dracula-background border-b-4 border-neutral">
             {({open}) => (
                 <>
                     <div className="max-w-7xl mx-auto px-4 sm:px-6">
