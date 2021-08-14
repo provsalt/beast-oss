@@ -1,10 +1,10 @@
-import {Balance} from "../../modules/Dashboard/balance";
-import {WorkerList, Workers} from "../../modules/Dashboard/workers";
-import {BlockTable, LastBlockFound} from "../../modules/Dashboard/blocks";
+import {Balance} from "../../modules/dashboard/balance";
+import {WorkerList, Workers} from "../../modules/dashboard/workers";
+import {BlockTable, LastBlockFound} from "../../modules/dashboard/blocks";
 import useSWR from "swr";
-import {Price} from "../../modules/Dashboard/price";
-import {BoostHR, RaffleHR, TimeToBoost} from "../../modules/Dashboard/events";
-import {Hashrate} from "../../modules/Dashboard/hashrate";
+import {Price} from "../../modules/dashboard/price";
+import {BoostHR, RaffleHR, TimeToBoost} from "../../modules/dashboard/events";
+import {Hashrate} from "../../modules/dashboard/hashrate";
 import * as React from "react";
 import {useEffect} from "react";
 import axios from "axios"
