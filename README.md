@@ -1,3 +1,6 @@
+## NO LONGER MAiNTAINED
+Due to the pool shutting down and moving to p2pool, this repository will no longer be maintained. 
+
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
